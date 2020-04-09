@@ -1,0 +1,95 @@
+/* ======= Section ======= */
+section
+{
+    width: 97%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border: 8px rgb(117, 118, 138) outset;
+}
+
+/* Div Developer */
+.developer
+{
+    display: flex;
+}
+
+/* Section Image */
+.developer img
+{
+    margin: 30px 20px; 
+    width: 500px; 
+    height: 500px;
+    padding: 0 130px;
+}
+
+/* Developer Information */
+.developer .developer_information
+{   
+    color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.developer h3
+{
+    font-size: 2.3rem;
+}
+
+.developer a
+{
+    color: black;
+    width: 40%;
+    padding: 12px 0;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1.4rem;
+}
+
+.developer a:hover
+{
+    color: white;
+    background-color: black;
+}
+
+.developer p
+{
+    line-height: 1.6;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+/* Image Gallery */
+.image_gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image_gallery .image
+{
+    margin-bottom: 35px;
+}
+
+.image_gallery .image img
+{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.image_gallery .image  h5
+{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    width: 85%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: black;
+}
