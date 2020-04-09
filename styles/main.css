@@ -23,7 +23,7 @@ header
 header h1
 {
     margin: 5% 5% 2%;    
-    font-size: 2.6rem;
+    font-size: 4.5rem;
 }
 
 header h1:hover
@@ -74,19 +74,62 @@ section
     border: 8px rgb(117, 118, 138) outset;
 }
 
+.developer
+{
+    display: flex;
+}
+
 /* Section Image */
 .developer img
 {
-    margin: 0px 20px; 
-    width: 600px; 
-    height: 600px;
+    margin: 30px 20px; 
+    width: 500px; 
+    height: 500px;
+    padding: 0 130px;
 }
 
 /* Developer Information */
 .developer .developer_information
-{
-    background-color: red;
+{   
+    color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.developer h3
+{
+    font-size: 2.3rem;
+}
+
+.developer a
+{
+    color: black;
+    width: 40%;
+    padding: 12px 0;
+    text-decoration: none;
+    border: 2px solid black;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1.4rem;
+
+}
+
+.developer a:hover
+{
+    color: white;
+    background-color: black;
+}
+
+.developer p
+{
+    line-height: 1.6;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
 
 
 /* ======= Footer ======= */
